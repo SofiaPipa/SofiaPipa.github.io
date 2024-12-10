@@ -82,3 +82,17 @@ h1 {
 p { 
     font-size: 18px; 
 }
+
+.share {
+    padding: 14px;
+  background: rgb(170, 145, 229);
+  border-radius: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+img:hover#dance{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
