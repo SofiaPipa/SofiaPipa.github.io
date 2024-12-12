@@ -1,3 +1,7 @@
+
+html {
+    scroll-behavior: smooth;
+  }
 { 
     margin: 0; 
     box-sizing: border-box; 
@@ -14,6 +18,9 @@ body {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
+    margin-bottom: 16px;
+    position:fixed;
+    width: calc(100% - 16px);
 } 
  
 .logo { 
@@ -30,6 +37,7 @@ body {
     padding: 0; 
     display: flex; 
     padding: 1rem; 
+
 } 
  
 .menu a { 
@@ -37,6 +45,7 @@ body {
     padding: 1rem; 
     color: #fff; 
     text-decoration: none; 
+    scroll-behavior: smooth;
 } 
 .menu a:hover { 
     background: rgb(255, 255, 232); 
@@ -54,7 +63,12 @@ body {
     border-radius: 2rem;
     min-height: 50vh; 
     padding: 1rem ;
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 15px;
 } 
+
+
 h1 { 
     color: #634086; font-family: monospace; font-stretch: extra-expanded;
 } 
@@ -89,6 +103,7 @@ p {
   border-radius: 1rem;
   display: inline-block;
   text-decoration: none;
+  margin:auto
 }
 
 
