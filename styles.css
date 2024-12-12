@@ -6,6 +6,29 @@ html {
     margin: 0; 
     box-sizing: border-box; 
 } 
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-container2 {
+    display: flex;
+    justify-content: center;
+  } 
+  .flex-container3 {
+    display: flex;
+    justify-content: center;
+}
+    .flex-container4 {
+        display: flex;
+        justify-content: center;
+  } 
+
+  .flex-container5 {
+    display: flex;
+    justify-content: center;
+} 
 body { 
     font-family: monospace; font-stretch: extra-expanded;
     background-color: #d3bddf; 
@@ -61,7 +84,8 @@ body {
 .section { 
     background-color: #fef5e0; 
     border-radius: 2rem;
-    min-height: 50vh; 
+    min-height: fit-content;
+    max-height: fit-content;
     padding: 1rem ;
     max-width: 1200px;
     margin:auto;
@@ -75,6 +99,7 @@ h1 {
 
 .section#works { 
     background-color: #fef5e0; 
+    min-height: 470px;
 }
  
 .gallery { 
@@ -103,11 +128,36 @@ p {
   border-radius: 1rem;
   display: inline-block;
   text-decoration: none;
-  margin:auto
+  margin-top: 15px;
+}
+
+.share#instagram {
+    margin-left: 44%;
 }
 
 
 img:hover#dance{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #603d80;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
 }
