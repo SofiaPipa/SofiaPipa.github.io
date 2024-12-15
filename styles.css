@@ -2,6 +2,105 @@
 html {
     scroll-behavior: smooth;
   }
+
+  #art1 {
+    border-radius: 2rem; 
+  }
+
+  #art2 {
+    border-radius: 2rem; 
+  }
+
+  #art3 {
+    border-radius: 2rem; 
+  }
+
+  #art4 {
+    border-radius: 2rem; 
+  }
+
+  #kol {
+    border-radius: 2rem; 
+  }
+  #kol1 {
+    border-radius: 2rem; 
+  }
+
+  #car {
+    border-radius: 2rem; 
+  }
+
+img:hover#dit4 {
+    transform: scale(110%);
+    }
+
+img:hover#dit2 {
+        transform: scale(110%);
+        }
+
+ img:hover#dit {
+            transform: scale(110%);
+            }
+
+img:hover#dit3 {
+  transform: scale(110%);
+     }   
+            
+img:hover#kol {
+        transform: scale(110%);
+        }
+ img:hover#kol1 {
+            transform: scale(110%);
+            }        
+
+img:hover#car {
+transform: scale(110%);
+}
+
+img:hover#car4 {
+    transform: scale(110%);
+    }
+    
+img:hover#car2 {
+    transform: scale(110%);
+    }
+
+ img:hover#car3 {
+        transform: scale(110%);
+        }
+
+  #dit4 {
+    border-radius: 2rem;
+}
+
+  #dit2 {
+    border-radius: 2rem;
+}
+
+  #dit3 {
+    border-radius: 2rem;
+}
+
+  #dit {
+    border-radius: 2rem;
+}
+
+  #car2 {
+    border-radius: 2rem; 
+  }
+
+  #car3 {
+    border-radius: 2rem; 
+  }
+
+  #car {
+    border-radius: 2rem; 
+  }
+
+  #car4 {
+    border-radius: 2rem; 
+  }
+
 { 
     margin: 0; 
     box-sizing: border-box; 
@@ -10,19 +109,24 @@ html {
 .flex-container1 {
     display: flex;
     justify-content: center;
+    gap: 20px;
   }
 
   .flex-container2 {
     display: flex;
     justify-content: center;
+    gap: 20px;
+
   } 
   .flex-container3 {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
     .flex-container4 {
         display: flex;
         justify-content: center;
+        gap:20px
   } 
 
   .flex-container5 {
@@ -53,7 +157,10 @@ body {
     text-decoration: none; 
     color: rgba(255, 255, 255, 100%); 
 } 
- 
+
+.logo:hover { 
+    transform:scale(120%)
+} 
 .menu { 
     list-style: none; 
     margin: 0; 
@@ -68,6 +175,7 @@ body {
     padding: 1rem; 
     color: #fff; 
     text-decoration: none; 
+    font-size: 20px;
     scroll-behavior: smooth;
 } 
 .menu a:hover { 
@@ -86,17 +194,22 @@ body {
     border-radius: 2rem;
     min-height: fit-content;
     max-height: fit-content;
-    padding: 1rem ;
+    padding: 2rem ;
     max-width: 1200px;
     margin:auto;
-    margin-top: 15px;
+    margin-top: 18px;
 } 
 
 
 h1 { 
     color: #634086; font-family: monospace; font-stretch: extra-expanded;
+    text-align: center;
+    font-size: 35px;
 } 
-
+h2 {  
+    text-align: center;
+    font-size: 30px;
+} 
 .section#works { 
     background-color: #fef5e0; 
     min-height: 470px;
@@ -107,8 +220,12 @@ h1 {
     flex-wrap: wrap; 
     justify-content: space-between; 
     gap: 1rem; 
+    border-radius: 2rem;
 } 
  
+.gallery:hover{
+    transform: scale(110%);
+    }
 .gallery-item { 
     width: calc(100% / 2 - 1rem); 
 } 
@@ -136,10 +253,16 @@ p {
 }
 
 
+#dance{
+    border-radius: 2rem;
+}
+
 img:hover#dance{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+
 
 div.gallery {
     margin: 5px;
@@ -160,4 +283,6 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+
 }
+
